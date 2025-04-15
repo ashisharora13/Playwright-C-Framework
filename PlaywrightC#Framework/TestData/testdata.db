@@ -1,0 +1,20 @@
+-- Create Users table
+CREATE TABLE Users (
+    Username TEXT PRIMARY KEY,
+    Password TEXT
+);
+
+-- Insert user data
+INSERT INTO Users (Username, Password) VALUES ('standard_user', 'secret_sauce');
+INSERT INTO Users (Username, Password) VALUES ('locked_out_user', 'secret_sauce');
+INSERT INTO Users (Username, Password) VALUES ('problem_user', 'secret_sauce');
+INSERT INTO Users (Username, Password) VALUES ('performance_glitch_user', 'secret_sauce');
+INSERT INTO Users (Username, Password) VALUES ('error_user', 'secret_sauce');
+INSERT INTO Users (Username, Password) VALUES ('visual_user', 'secret_sauce');
+
+-- Create CustomerInfo table
+CREATE TABLE CustomerInfo (
+    FirstName TEXT,
+    LastName TEXT,
+    ZipCode TEXT
+);
